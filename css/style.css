@@ -1,0 +1,232 @@
+body {
+    background-color: rgba(245, 245, 245, 1) !important;
+}
+
+.divider {
+    width: 208px;
+    position: absolute;
+    left: 50%;
+    margin-left: -104px;
+    margin-top: 10px;
+}
+.divider .line {
+    width: 90px;
+    height: 1px;
+    background: #ccc;
+    float: left;
+}
+.circle {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #ddd;
+    margin-left: 8px;
+    float: left;
+    margin-right: 8px;
+    margin-top: -5px;
+    box-sizing: content-box;
+}
+.logo img {
+    position: relative;
+    height: 40px;
+    max-width: 242px;
+    width: 100% !important;
+}
+#nav-height {
+    min-height: 80px;
+}
+nav {
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.16);
+}
+nav .nstyle {
+    font-size: 0.9rem;
+
+}
+nav .nstyle li {
+    padding: 0 10px;
+}
+.section-2 img
+{
+    height: 100px;
+    width: 100px;
+}
+#media img{
+    max-height: 40px;
+    width: auto;
+}
+#media {
+    background-color: rgba(245, 245, 245, 1);
+}
+
+#review img {
+    height: 80px;
+    width: 80px;
+}
+
+#agent p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400px;
+    padding-top: 3.5rem;
+}
+
+#agent img {
+    width: 250px;
+}
+
+#kindTruck .card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+#kindTruck .card:hover {
+    cursor: pointer;
+    border: 1px solid grey;
+    color: rebeccapurple;
+}
+
+#blog h5 {
+    font-size: 16px;
+}
+#blog p {
+    font-size: 14px;
+}
+#blog  a {
+    text-decoration: none;
+}
+#blog a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#blog p a:hover {
+    background-color: white;
+    border: 1px solid red;
+}
+
+#blog p .big-button{
+    font-size: 16px;
+    padding: 5 20px;
+}
+#blog p .big-button:hover{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+#download {
+    background: url("../img/bg2.jpg") no-repeat;
+}
+#download h1 {
+    font-size: 30px;
+    padding-bottom: 60px;
+}
+#download a {
+    background-color: red;
+    padding: 20px 30px;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-radius: 5px;
+
+}
+.button {
+    margin-top: 10px;
+}
+footer img {
+    height: 40px;
+    max-width: 242px;
+}
+
+footer{
+    font-size: .9rem;
+    background-color: rgba(255,255,255,1.0);
+
+}
+
+
+footer li{
+    list-style: none;
+    padding-top: 10px;
+}
+footer li a{
+    text-decoration: none;
+    color: black;
+  
+}
+
+footer .footer-icon li i
+{
+    color: red;
+    border: red;
+    border: 1px red solid;
+    padding: 5px;
+}
+
+/* gps */
+#gps img {
+    height: 431px;
+    width: 496px;
+}
+
+#gps .gps-button {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+#gps .gps-button button {
+    padding: 10px 10px;
+    width: 180px;
+    border-radius: 10px;
+    background-color: rgba(176,0,0,1.0);
+}
+
+.download1 {
+    background: url(/img/down1.jpg) !important;
+}
+/* contact page style */
+.form-group{
+    margin-top: 20px;
+}
+.form-group label {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.phone-labell,
+.email-label {
+    font-size: 15px;
+}
+.form-group 
+.contact-form label {
+    text-align: left;
+}
+.sub-btn button {
+    background-color: gainsboro;
+    font-size: 14px;
+    padding: 10px 0;
+}
+.sub-btn button:hover {
+    background-color: red;
+    color: white;
+    font-weight: 400;
+}
+.address h4{
+    font-size: 28px;
+    font-weight: 600;
+}
+#message h2 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: bold;
+}
+.hr1{
+    width: 600px;
+    margin: 0 auto;
+}
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}	
