@@ -225,6 +225,66 @@ footer .footer-icon li i
     width: 600px;
     margin: 0 auto;
 }
+
+/* blog */
+#blog-item {
+    margin-top: 80px;
+}
+#blog-item .date{
+    margin-left: 10px;
+    font-size: 13px;
+}
+#blog-item i{
+    font-size: 13px;
+}
+#blog-item p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+#blog-item button{
+   font-size: 14px;
+   letter-spacing: 2px;
+   padding: 10px 30px;
+   text-align: center;
+   
+   border: 1px solid black;
+}
+#blog-item button i{
+   font-size: 14px;
+   font-weight: 800px;
+   display: none;
+}
+#blog-item button:hover{
+    border: 2px solid black;
+}
+#blog-item button:hover i{
+   display: inline-block;
+   color: black;
+
+}
+.blog-img {
+    position: relative;
+    margin-top: 20px;
+}
+.overly {
+    position: absolute;
+    background: rgba(176,0,0,.8);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    transition: all 1s;
+    
+}
+.blog-img:hover .overly {
+    visibility: visible;
+    cursor: pointer;
+   
+}
 @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{ display: none; }
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
